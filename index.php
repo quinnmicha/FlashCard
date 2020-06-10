@@ -13,20 +13,21 @@
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="design/design.css">
 <script type="text/javascript" src='../ToDo/model/validation.js'></script>
   
 </head>
 
-<body style="height:100%;">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Flash Study</a>
+<body">
+<nav class="navbar navbar-expand-lg navbar-light navbar-backgroundColor">
+    <a class="navbar-brand brandName" href="#">Flash Study</a>
     
     <a class="nav-item d-xs-block d-sm-block d-md-none d-lg-none d-xl-none" href="#">Login</a>
 </nav>
     
 <div class="container-fluid" style="min-height:680px;">
     <div class="row mt-4 mb-4 p-4">
-        <section class="col-lg-8 col-md-10 col-sm-12 col-xl-6 col-xs-12">
+        <section class="col-lg-8 col-md-10 col-sm-12 col-xl-6 col-xs-12 offset-xl-2">
             <h1>Welcome to Flash Study</h1>
             <p class="text-justify">After registering you will be able to make flash card decks by creating flash cards, grouping 
                 them by classes, and grouping them again by chapter or section! You will be able to save 
@@ -36,7 +37,7 @@
         </section>
     </div>
     <div class="row h-50">
-        <div class="col m-auto border border-dark h-100">
+        <div class="col m-auto h-100 border-right border-dark">
             <form method='POST' class='m-auto w-50'>
                 <h1 class='mt-4'>Register</h1>
                 <?php
@@ -68,7 +69,7 @@
                 </div>
             </form>
         </div>
-        <div class="col-lg-3 col-md-4 col-xl-3 d-md-block d-lg-block d-xl-block d-sm-none d-xs-none float-right border border-info">
+        <div class="col-lg-3 col-md-4 col-xl-3 d-md-block d-lg-block d-xl-block d-sm-none d-xs-none float-right">
             <form method='POST' class='m-auto w-50'>
                 <h1 class='mt-4'>Login</h1>
                 <?php
@@ -101,8 +102,8 @@
     
         
    <footer>
-        <div class="row mt-5">
-            <div class="col-2 offset-5 border border-dark">
+        <div class="row mt-5 justify-content-center">
+            <div class="col">
                 <p class="text-center">© 2020 Michael Quinn</p>
             </div>
         </div>

@@ -1,0 +1,13 @@
+html,body{
+    height:100%;
+}
+body{
+    background-image:url(whiteBlue3.png);
+    background-color:#d8f8fd;
+}
+.navbar-backgroundColor{
+    background-color:#9feff9;
+}
+.brandName{
+    font-size:34pt;
+}
