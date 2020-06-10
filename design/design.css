@@ -11,3 +11,6 @@ body{
 .brandName{
     font-size:34pt;
 }
+.brandName,h1{
+    font-family:Bookman;
+}
